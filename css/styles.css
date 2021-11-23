@@ -79,7 +79,7 @@ ul {
 .site-nav .link:focus {
   color: var(--accent-color);
 }
-.site-nav .link.active {
+.site-nav .link.current {
   color: var(--accent-color);
 }
 .auth-nav .item + .item {
@@ -129,7 +129,7 @@ ul {
   color: var(--accent-color);
 }
 .hero {
-  width: 1600px;
+  max-width: 1600px;
   height: 600px;
   margin-left: auto;
   margin-right: auto;
@@ -292,7 +292,6 @@ border-radius: 0px 0px 4px 4px;
   fill: currentColor;
 }
 
-
 .client-list {
   display: flex;
   justify-content: center;
@@ -346,6 +345,7 @@ border-radius: 0px 0px 4px 4px;
 .button:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   cursor: pointer;
 }
 .button-primary {
